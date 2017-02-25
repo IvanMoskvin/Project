@@ -1,7 +1,5 @@
-package LIon;
 
 import java.util.*;
-
 import java.io.*;
 
 class Person {
