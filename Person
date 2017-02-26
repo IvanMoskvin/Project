@@ -1,0 +1,56 @@
+
+class Person {
+    private String firstName;
+    private String surname;
+    private String post;
+
+    private int age;
+
+    public Person(String firstName, String surname, String post, int age) {
+
+        this.firstName = firstName;
+        this.surname = surname;
+        this.post = post;
+        this.age = age;
+    }
+
+    public Person() {
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getPost() {
+        return post;
+    }
+
+    public void setPost(String post) {
+        this.post = post;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String toString() {
+        return "Фамилия: " + firstName + ", Имя: " + surname + ", Должность: " + post + ", Возраст: " + age;
+    }
+
+}
